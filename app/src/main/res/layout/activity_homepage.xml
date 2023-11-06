@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hp"
+    tools:context=".Homepage">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#C4CFB1"-->
+    <!--        app:srcCompat="@drawable/hp"-->
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="0dp"-->
+    <!--        tools:layout_editor_absoluteY="0dp" />-->
+
+    <EditText
+        android:id="@+id/InvoiceNumber"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="77dp"
+        android:ems="10"
+        android:hint="共8碼"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/CheckButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--        app:layout_constraintTop_toBottomOf="@+id/imageView2"-->
+
+    <EditText
+        android:id="@+id/YearMonth"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="2023-1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/InvoiceNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/CheckButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="48dp"
+        android:text="兌獎"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/baby"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/baby"
+        android:layout_width="531dp"
+        android:layout_height="289dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/baby"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baby" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pandas1"
+        android:layout_width="531dp"
+        android:layout_height="289dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/pandas1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pandas1" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/water2"
+        android:layout_width="531dp"
+        android:layout_height="289dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/water2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/water2" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/lemon3"
+        android:layout_width="531dp"
+        android:layout_height="289dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/lemon3"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lemon3" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/nav_menu" />
+
+    <!--        <fragment-->
+    <!--            android:id="@+id/activity_main_nav_fragment"-->
+    <!--            android:name="androidx.navigation.fragment.NavHostFragment"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            app:defaultNavHost="true"-->
+    <!--            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"-->
+    <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--            app:layout_constraintRight_toRightOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:navGraph="@navigation/nav_main" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

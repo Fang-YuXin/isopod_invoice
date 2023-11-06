@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "931867816761",
+    "project_id": "isopod-invoice",
+    "storage_bucket": "isopod-invoice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931867816761:android:735713f7988199b657aee8",
+        "android_client_info": {
+          "package_name": "com.example.isopod_invoice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQqX8l_so-ynaVPS6lZ--o_7N1NZtkTAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

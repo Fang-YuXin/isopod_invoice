@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/Homepage"
+    android:id="@+id/nav_main"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <activity
+        android:id="@+id/Mine"
+        android:name="com.example.isopod_invoice.Mine"
+        android:label="Mine"
+        tools:layout="@layout/activity_mine" />
+
+    <activity
+        android:id="@+id/Homepage"
+        android:name="com.example.isopod_invoice.Homepage"
+        android:label="Homepage"
+        tools:layout="@layout/activity_homepage" />
+
+    <activity
+        android:id="@+id/Info"
+        android:name="com.example.isopod_invoice.Info"
+        android:label="Info"
+        tools:layout="@layout/activity_info" />
+
+
+</navigation>

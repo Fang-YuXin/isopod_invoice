@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- 設置黑色邊框 -->
+            //<stroke android:width="2px" android:color="#000000"/>
+
+            <!-- 可以有漸變 -->
+            <gradient
+                android:angle="270"
+                android:endColor="#EEEEEE"
+                android:startColor="#FFDFBE" />
+
+
+
+
+        </shape>
+    </item>
+
+</selector>

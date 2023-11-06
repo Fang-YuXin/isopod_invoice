@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">isopod_invoice</string>
+    <!--供Firebase第三方登入畫面模組使用-->
+    <string name="facebook_application_id">585199380348034</string>
+    <!--供Facebook登入模組使用-->
+    <string name="facebook_app_id">585199380348034</string>
+    <string name="facebook_client_token">66837466e267ad7af1a4295135236a19</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
